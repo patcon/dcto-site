@@ -1,0 +1,37 @@
+#page {
+  min-width: 940px;
+}
+
+#header {
+  height: 150px;
+}
+
+#logo {
+  width: 180px;
+  padding: 50px 10px 70px;
+  background: url('../images/ribbon.png');
+  height: 240px;
+  float: left;
+  margin: 0	50px;
+}
+
+#highlighted .container {
+  padding-left: 310px;
+  padding-right: 100px;
+}
+
+#navigation ul {
+  float: right;
+  padding-right: 80px;
+  max-width: 560px;
+}
+
+#navigation ul li a {
+  width: 88px;
+}
+
+#main .container {
+  padding: 50px 50px 0 310px;
+  margin: 0;
+  width: 580px;
+}

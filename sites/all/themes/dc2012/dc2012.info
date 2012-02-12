@@ -1,0 +1,19 @@
+name = DCTO2012
+description = DrupalCamp Toronto 2012 theme by Calvin Tennant, Erin Marchak, Kevin Lee, Sebastian Lesch
+core = 7.x
+engine = phptemplate
+
+stylesheets[all][] = css/default.css
+stylesheets[all][] = css/slabtext.css
+stylesheets[screen and (min-width: 1000px)][] = css/desktop.css
+stylesheets[screen and (max-width: 1000px)][] = css/device-portrait.css
+
+scripts[] = js/dc2012.js
+scripts[] = js/jquery.slabtext.min.js
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[closure] = Closure
+regions[footer] = Footer

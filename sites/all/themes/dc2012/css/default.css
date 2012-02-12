@@ -1,0 +1,191 @@
+@font-face {
+  font-family: 'LeagueGothicRegular';
+  src: url('fonts/League_Gothic-webfont.eot');
+  src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('fonts/League_Gothic-webfont.woff') format('woff'),
+  url('fonts/League_Gothic-webfont.ttf') format('truetype'),
+  url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('../images/background.gif');
+}
+
+h1 {
+  text-align:left;
+  font-family:'LeagueGothicRegular', "Impact", Charcoal, Arial Black, Gadget, Sans serif;
+  text-transform: uppercase;           
+  line-height:1;   
+  color:#222;             
+  font-size: 45px;
+  /* Remember to set the correct font weight if using fontface */
+  font-weight:normal;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 25px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+ }
+
+p {
+  opacity: .95;
+}
+
+a {
+  color: #315477;
+  text-decoration: none;
+}
+
+#page {
+  font-family: 'Droid Serif', serif;
+  line-height: 25px;
+  color: #FFF;
+}
+  
+#header, #highlighted {
+  background: #cce5f3;
+  color: #315477;
+}
+
+#highlighted {
+  text-shadow: 0 -1px 0 #1E3348, 0 1px 0 #EDF2F7;
+}
+
+#logo,
+#logo a {
+  text-shadow: 0 1px 0 #F9C7A8, 0 -1px 0 #602E0F;
+  color: #FFF;
+  text-decoration: none;
+}
+
+#main {
+	border-image: url(../images/highlighted-bottom.png) 30 30 round;
+	border-width: 8px 0 0 0;
+	background: #9acfeb;
+}
+
+.node {
+  margin: 2em 0;
+}
+
+.node h2 {
+  margin-bottom: .5em;
+}
+
+.container:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.container {
+	display: block;
+  margin:0 auto;
+  padding: 0;
+}
+ 
+html[xmlns] .container {
+	display: block;
+}
+ 
+* html .container {
+	height: 1%;
+}
+
+
+.slabme {
+  font-family: LeagueGothicRegular;
+  text-transform: uppercase;
+}
+
+.slabtext {
+  line-height: 1em;
+}
+
+.amp,
+.featured-label {
+  font-family:Droid Serif,serif;
+  font-style:italic;
+  font-weight:normal;
+  text-transform: none;
+}
+
+
+.header-hashtag {
+  border-top: 1px solid #B36500;
+  border-bottom: 1px solid #F9D29F;
+  margin: .2em 0;
+}
+
+.header-hashtag a {
+  border-bottom: 1px solid #B36500;
+  border-top: 1px solid #F9D29F;
+  display: block;
+  line-height: 1em;
+  padding-top: .05em;
+}
+
+.featured-label {
+  width: 65%;
+  opacity: .85;
+}
+#navigation ul {
+  list-style: none;
+  margin: 0;
+  text-transform: lowercase;
+  background: rgba(255,255,255,.3);
+  display: block;
+  margin-top: 30px;
+}
+
+#navigation ul li {
+  display: block;
+  float: left;
+  line-height: 54px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+#navigation ul li a {
+  display: inline-block;
+  text-align: center;
+  padding: 0 10px;
+  color: #315477;
+  text-decoration: none;
+}
+
+#navigation ul li:hover {
+  background: rgba(255,255,255,.3);
+}
+
+.bio p {
+  font-size: 18px;
+  margin: 1em 0 2em;
+}
+
+.tiles .tile {
+  float: left;
+  padding: 3%;
+}
+
+.tiles .tile-2 {
+  width: 44%;
+}
+.tiles .tile-3 {
+  width: 27%;
+}

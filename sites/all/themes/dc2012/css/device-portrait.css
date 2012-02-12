@@ -1,0 +1,32 @@
+.container {
+  width: 320px;
+}
+
+#logo {
+  background: none;
+  width: 220px;
+  padding: 10px 30px;
+  height: 340px;
+  margin: 0 auto;
+}
+#header {
+  background: url('../images/ribbon.png') top center repeat-x, #cce5f3;
+  //height: 380px;
+}
+
+#navigation ul {
+  padding: 0;
+  margin-bottom: 2em;
+}
+
+#navigation ul li,
+#navigation ul li a {
+  width: 100%;
+  float: none;
+  border-top: none;
+  text-align: left;
+}
+
+#navigation ul li a {
+padding-left: .5em;
+}
